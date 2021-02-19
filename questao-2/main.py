@@ -111,8 +111,6 @@ for cost_condition in cost_conditions:
 
 # plots
 
-plt.style.use('Solarize_Light2')
-
 ## plot with different axis
 # fig, [[ax1, ax2], [ax3, ax4]] = plt.subplots(2, 2, figsize=(16, 16))
 # axis = [ax1, ax2, ax3, ax4]
@@ -141,4 +139,4 @@ ax.legend()
 ax.set_title('Pricing model cost comparison over time')
 ax.set_ylabel('R$')
 
-plt.savefig('fig.png')
+fig.savefig('fig.png')
